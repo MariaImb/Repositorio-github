@@ -1,0 +1,92 @@
+.uru1 {
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+	border: none;
+	border-radius: 22px;
+	height: 20px;
+	font-size: 16px;
+	width: 30%;
+	padding: 7px;
+	margin: 30px;
+}
+
+.uru2 {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.abc {
+	margin: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
+    min-width: 167px;
+    width: 16%;
+    height: 30px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    font-family: arial,sans-serif;
+}
+
+.def {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px
+    width: 100%;
+}
+
+.uru3 {
+	border-radius: 2px;
+	border: 1px;
+	padding:12px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;	
+    background-color: blue;
+    color: white;
+    float: right;
+    margin: 10px 0;
+}
+
+.abcd {
+	font-family: arial,sans-serif;
+	height: 30px;
+    vertical-align: middle;
+    background-color: white;
+    font-size: 16px;
+    min-width: 167px;
+    color: #333;
+}
+
+#a1 {
+	float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.fila {
+	display: block;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" type="text/css" href="caca.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
     	<div style="text-align: right;">
@@ -10,27 +10,49 @@
     	</div>
     	<div style="text-align: left;">
 	        <form action="https://google.com/search">
-				<div id="divh1">
-					<h1>Find pages with...</h1>
-				</div>
-				<div class="abc">
-					<label for="aaa">All these words:</label>
-					<input type="text" id="aaa" name="as_q">
-				</div>
-				<div class="abc">
-					<label for="bbb">This exact word or phrase:</label>
-					<input type="text" id="bbb" name="as_epq">
-				</div>
-				<div class="abc">
-					<label for="ccc">Any of these words:</label>
-					<input type="text" id="ccc" name="as_oq">
-				</div>
-				<div class="abc">
-					<label for="ddd">None of these words:</label>
-					<input type="text" id="ddd" name="as_eq">
-				</div>
-	            <div>
-	            	<input class="uru3" type="submit" value="Advanced Search">
+				<div style="display: block; margin: 20px">
+					<div class="fila">
+						<div class="abcd">
+							<span>Find pages with...</span>
+						</div>
+					</div>
+					<div class="fila">
+						<div style="display: inline-block" class="abc">
+							<label style="height: 30px; display: table-cell; vertical-align: middle" for="aaa">All these words:</label>
+						</div>
+						<div style="display: inline-block;"class="def">
+							<input style="border: none;" type="text" id="aaa" name="as_q">
+						</div>
+					</div>
+					<div class="fila">
+						<div style="display: inline-block;" class="abc">
+							<label for="bbb">This exact word or phrase:</label>
+						</div>
+						<div style="display: inline-block;"class="def">
+							<input style="border: none;" type="text" id="bbb" name="as_epq">
+						</div>
+					</div>
+					<div class="fila">
+						<div style="display: inline-block;" class="abc">
+							<label for="ccc">Any of these words:</label>
+						</div>
+						<div style="display: inline-block;"class="def">
+							<input style="border: none;" type="text" id="ccc" name="as_oq">
+						</div>
+					</div>
+					<div class="fila">
+						<div style="display: inline-block;" class="abc">
+							<label for="ddd">None of these words:</label>
+						</div>
+						<div style="display: inline-block;"class="def">
+							<input style="border: none;" type="text" id="ddd" name="as_eq">
+						</div>
+					</div>
+					<div class="fila">
+						<div style="display: inline-block;">
+			            	<input class="uru3" type="submit" value="Advanced Search">
+			            </div>
+					</div>
 	            </div>
 	        </form>
 	    </div>
